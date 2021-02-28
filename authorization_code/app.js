@@ -13,9 +13,9 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
-var redirect_uri = 'REDIRECT_URI'; // Your redirect uri
+var client_id = 'a037f933664a4c1fa2fbe84333695bea'; // Your client id
+var client_secret = 'c3c141170a214ecd837578a5fca46d34'; // Your secret
+var redirect_uri = 'file:////Users/louisn/Documents/VSCode/spotifyplaylist/index.html'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -54,6 +54,7 @@ app.get('/login', function(req, res) {
       scope: scope,
       redirect_uri: redirect_uri,
       state: state
+      
     }));
 });
 
