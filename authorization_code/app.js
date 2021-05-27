@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'a037f933664a4c1fa2fbe84333695bea'; // Your client id
 var client_secret = 'c3c141170a214ecd837578a5fca46d34'; // Your secret
-var redirect_uri = 'file:////Users/louisn/Documents/VSCode/spotifyplaylist/index.html'; // Your redirect uri
+var redirect_uri = 'https://louie2074.github.io/playlist_sync/'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
